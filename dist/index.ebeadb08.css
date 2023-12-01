@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.cover-page {
+  color: #fff;
+  height: 100vh;
+  position: relative;
+}
+
+.background-image {
+  filter: brightness(70%);
+  background-image: url("lupin_portada.c40efd71.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+@media screen and (width <= 768px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+.options {
+  margin-top: 2em;
+}
+
+.options a {
+  color: #fff;
+  background-color: #2e2e2e;
+  border-radius: 5px;
+  margin: 0 15px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media screen and (width <= 768px) {
+  .options a {
+    font-size: 1em;
+  }
+}
+
+footer {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.uoc-footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: .75rem;
+}
+
+/*# sourceMappingURL=index.ebeadb08.css.map */

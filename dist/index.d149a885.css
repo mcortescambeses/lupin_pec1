@@ -1,0 +1,38 @@
+.links-and-attributions h2 {
+  color: #2e2e2e;
+}
+
+.links-and-attributions ul {
+  margin-top: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.links-and-attributions ul li {
+  margin-bottom: 10px;
+}
+
+.links-and-attributions ul li a {
+  color: #07c;
+  text-decoration: none;
+}
+
+.links-and-attributions ul li a:hover {
+  text-decoration: underline;
+}
+
+.links-and-attributions p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.next-link {
+  text-align: center;
+  color: #2e2e2e;
+  margin-top: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+
+/*# sourceMappingURL=index.d149a885.css.map */
